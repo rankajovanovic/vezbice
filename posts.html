@@ -1,0 +1,47 @@
+<html>
+
+<head>
+   <style>
+      
+   </style>
+</head>
+
+<body>
+    <button id="create-post">CREATE POST</button>
+
+
+
+
+    <div id="post">
+        <form action="">
+            <label for="">Title</label>
+            <input type="text">
+
+            <label for="">Content</label>
+            <input type="text">
+
+            <button type="submit">Save</button>
+        </form>
+    </div>
+
+    <script>
+        var create = document.getElementById('create-post');
+        create.addEventListener('click',() => {
+            var post = document.getElementById('post');
+
+        
+            if (post.style.display == "block") {
+                post.style.display="none";
+            }else {
+                post.style.display="block";
+            }
+
+
+                
+               
+  
+        });
+    
+    </script>
+</body>
+</html>
